@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mybank
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/healthz
+    autoDeploy: true
+    branch: main
