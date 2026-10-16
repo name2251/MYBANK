@@ -1,0 +1,17 @@
+{
+  "name": "fyg-bank-demo",
+  "version": "1.0.0",
+  "description": "Демонстрационный сайт FYG.Bank с локальным backend для банковского интерфейса",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
